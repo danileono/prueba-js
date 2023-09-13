@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: white;
+    background-color: rgb(197, 110, 255);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 3%;
+    background-color: rgb(255, 254, 239);
+}
+
+.containerInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px;
+    padding: 2%;
+}
+
+
+.titleMonto{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+    padding: 1%;
+    text-align: center;
+}
+
+#inputMonto{
+    width: 60%;
+    height: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.titleMoneda{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+    padding: 1%;
+    text-align: center;
+}
+
+#selectMoneda{
+    width: 60%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(235, 205, 255);
+    border: solid 1px;
+    text-align: center;
+}
+
+
+#btnConvertir{
+    font-size: 16px;
+    width: 50%;
+    padding: 2%;
+    border: solid 1px #ffffff;
+    color: white;
+    background-color: rgb(115, 188, 248);
+    margin-top: 2%;
+}
+#btnConvertir:hover{
+    border: solid 1px #000000;
+    color: white;
+    background-color: rgb(71, 172, 254);
+}
+
+#resultado{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 1%;
+    text-align: center;
+}
+
+#chart{
+    margin: 5% 0%;
+    width: 80%;
+    background-color:#ffffff;
+}
